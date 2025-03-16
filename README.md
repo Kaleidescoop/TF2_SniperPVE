@@ -1,6 +1,6 @@
-# One Thousand Engineers
+# Sniper Hell (A One Thousand Engineers mod)
 
-A special PVE gamemode designed by Uncle Dane for Uncletopia servers. The BLUE team consisting of up to 12 human players is faced with an army of Engineer Bots on RED team. The goal of the gamemode is to fight through the defenses of the Engineer bots and win the round. Best played on Payload and A/D maps.  
+A special PVE gamemode designed by Uncle Dane for Uncletopia servers and then modified by Kaleidescoop. The BLUE team consisting of up to 12 human players is faced with an army of Sniper Bots on RED team. The goal of the gamemode is to fight through the aimbot-like reflexes of the Sniper bots and win the round. Best played on Payload and A/D maps.
 
 ## ConVars
 - `sm_engipve_allow_respawnroom_build` (default: 1) - allows human engineers to build in spawnrooms.
