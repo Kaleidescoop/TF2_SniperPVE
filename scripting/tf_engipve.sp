@@ -27,11 +27,11 @@
 
 public Plugin myinfo =
 {
-	name		= "[TF2] Engineer PVE",
-	author		= "Moonly Days, Uncle Dane",
-	description = "Engineer PVE",
+	name		= "[TF2] Sniper Hell (PVE)",
+	author		= "Moonly Days, Uncle Dane, Kaleidescoop", 
+	description = "Sniper Hell",
 	version		= PLUGIN_VERSION,
-	url			= "https://github.com/MoonlyDays/TF2_EngineerPVE"
+	url			= "https://github.com/Kaleidescoop/TF2_SniperPVE"
 };
 
 /**
@@ -222,7 +222,7 @@ public bool OnClientConnect(int client, char[] rejectMsg, int maxlen)
 	int maxHumans = MaxClients - tf_bot_quota.IntValue;
 	if (PVE_GetHumanCount() > maxHumans)
 	{
-		Format(rejectMsg, maxlen, "[1000 Engis] No more human slots are available, sorry :C");
+		Format(rejectMsg, maxlen, "[Sniper Hell] No more human slots are available, sorry");
 		return false;
 	}
 
